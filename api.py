@@ -52,4 +52,4 @@ def credit(id_client):
         return jsonify(output)
         
 if __name__ == '__main__':
-    app.run(debug=True)# debug=True
+    app.run()# debug=True
