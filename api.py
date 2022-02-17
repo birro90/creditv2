@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 clf = load("best_rf_model.joblib")
 
-sample = pd.read_csv('X_test.csv', index_col='SK_ID_CURR', encoding ='utf-8')
+sample = pd.read_csv('X_test_sample.csv', index_col='SK_ID_CURR', encoding ='utf-8')
 
 #309972
 #405389
